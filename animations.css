@@ -730,8 +730,8 @@ pulse
 	animation-name: pulse;
 	-webkit-animation-name: pulse;	
 
-	animation-duration: 2s;	
-	-webkit-animation-duration: 2s;
+	animation-duration: 0.2s;	
+	-webkit-animation-duration: 0.2s;
 
 	animation-iteration-count: infinite;
 	-webkit-animation-iteration-count: infinite;
