@@ -2,11 +2,16 @@ html {
 
 /* Portrait tablet and small desktops */
 @media (max-width: 940px) {
+
+	header {
+		overflow: hidden;
+	}
 	
 }	
 /* Landscape phone to portrait tablet */
 @media (max-width: 800px) {
 	header {
+		overflow: hidden;
 		.headerBox {
 		width: 100%;
 		height: 100%;
@@ -132,6 +137,9 @@ main {
 }
 
 @media (max-width: 667px) {	
+	header {
+		overflow: hidden;
+	}
 	.wrapper {
 		width: 80%;
 	}
@@ -182,8 +190,8 @@ main {
 
 /* Landscape phones and down */
 @media (max-width: 480px) {
-	body {
-		overflow-x: hidden;
+	header {
+		overflow: hidden;
 	}
 
 	header {
