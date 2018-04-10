@@ -19,7 +19,12 @@ $greyTone: #f5f5f5;
 
 html {
 	font-size: 62.5%;
+	width: 100vw;
 	overflow-x: hidden;
+}
+
+body {
+	overflow: hidden;
 }
 
 .wrapper {
