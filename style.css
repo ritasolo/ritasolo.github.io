@@ -428,9 +428,9 @@ main .moreInfo {
     left: 7rem;
     padding-top: 23rem;
     width: 500px;
-    -webkit-transition: 1.2s;
-    -o-transition: 1.2s;
-    transition: 1.2s;
+    -webkit-transition: 1s;
+    -o-transition: 1s;
+    transition: 1s;
     overflow-x: hidden;
     overflow-y: hidden; }
 
@@ -850,6 +850,8 @@ html {
       -o-transition: 1s;
       transition: 1s;
       z-index: 1; }
+    html main .wrapper {
+      width: 80%; }
     html main .introduction {
       display: -webkit-box;
       display: -ms-flexbox;
@@ -935,6 +937,8 @@ html {
         margin-top: 0.5rem;
         margin-right: 1.4rem; } }
   @media (max-width: 667px) {
+    html .wrapper {
+      width: 80%; }
     html .moreInfo {
       width: 100%;
       display: -webkit-box;

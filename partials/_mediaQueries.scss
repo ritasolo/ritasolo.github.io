@@ -21,6 +21,10 @@ html {
 
 main {
 
+	.wrapper {
+		width: 80%;
+	}
+
 	.introduction {
 		display: flex;
 		flex-direction: column;
@@ -128,7 +132,11 @@ main {
 
 }
 
-@media (max-width: 667px) {		
+@media (max-width: 667px) {	
+	.wrapper {
+		width: 80%;
+	}
+
 	.moreInfo {
 		width: 100%;
 		display: flex;
