@@ -522,7 +522,7 @@ main .listInfoSection {
     width: 100%;
     padding: 0rem 1rem 1rem 1rem; }
   main .listInfoSection p {
-    padding-top: 2%;
+    padding-top: 1rem;
     float: right; }
   main .listInfoSection img {
     width: 400px;
@@ -1019,6 +1019,10 @@ html {
       -webkit-box-direction: normal;
       -ms-flex-direction: column;
       flex-direction: column; }
+      html .listInfoSection p {
+        position: relative;
+        top: -4rem;
+        left: 2rem; }
       html .listInfoSection .listInfo {
         width: 100%; }
       html .listInfoSection .entries {

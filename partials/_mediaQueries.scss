@@ -233,6 +233,11 @@ main {
 	
 	.listInfoSection {
 		flex-direction: column;
+		p {
+			position: relative;
+			top: -4rem;
+			left: 2rem;
+		}
 		.listInfo {
 			width: 100%;
 		}
