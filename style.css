@@ -843,9 +843,6 @@ html {
   /* Portrait tablet and small desktops */
   /* Landscape phone to portrait tablet */
   /* Landscape phones and down */ }
-  @media (max-width: 940px) {
-    html header {
-      overflow: hidden; } }
   @media (max-width: 800px) {
     html header {
       overflow: hidden; }
