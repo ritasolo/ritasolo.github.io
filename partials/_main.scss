@@ -30,7 +30,9 @@ main {
 	
 		.half1 {
 			width: 50%;
-			margin-top: 10rem;
+			display: flex;
+			justify-content: center;
+			align-items: center;
 			opacity: 0.9;
 			img {
 				width: 90%;
@@ -84,23 +86,29 @@ main {
 
 		h2 {
 			text-align: left;
+			background-color: white;
+			width: 100%;
+			display: inline;
+			padding: 0rem 1rem 1rem 1rem;
 		}
 
 		h4 {
 			@include secondaryFont(1.6rem);
-			font-weight: 600;
-			padding-top: 2rem;
+			padding-top: 3rem;
+			margin: 0;
+			margin-bottom: 2%;
+		}
+
+		h4:first-of-type {
+			margin-top: 1rem;
 		}
 
 		.half1 {
 			background-color: $secondaryColor;
 			padding-left: 17.5%;
 			padding-right: 3%;
-			padding-top: 5%;
-			 padding-bottom: 6%;
-			 h2 {
-			 	padding-bottom: 2rem;
-			 }
+			padding-top: 7%;
+			 padding-bottom: 7%;
 		}
 
 		.half2 {
@@ -118,7 +126,7 @@ main {
 	}
 
 	.galleryInfo {
-		padding: 100px 0;
+		padding: 15rem 0;
 		h2 {
 			width: 30%;
 			margin: 10px 0;
@@ -190,18 +198,23 @@ main {
 	.listInfoSection {
 		#answer1, #answer2, #answer3, #answer4 {display: none;}
 		background-color: $greyTone;
-		padding: 14rem 0;
-		padding-top: 10rem;
+		padding: 18rem 0;
 		position: relative;
+		display: flex;
 		h2 {
 			width: 30%;
 			margin: 0;
 			margin-right: 70px;
-			float: left;
+			text-align: left;
+			background-color: white;
+			display: inline;
+			width: 100%;
+			padding: 0rem 1rem 1rem 1rem;
 		}
 
 		p {
 			padding-top: 2%;
+			float: right;
 		}
 
 		img {
@@ -249,13 +262,13 @@ main {
 				padding: 5rem 0;
 				h4 {
 					font-family: 'Dosis', sans-serif;
-					font-size: 1.2rem;
+					font-size: 1.3rem;
 					font-weight: bold;
 					color: $greyTone;
 				}
 				h4 a {
 					color: $brightColor;
-					transition: 0.5s;
+					transition: 0.2s;
 					&:hover {
 						color: $greyTone;
 					}
@@ -335,8 +348,8 @@ main {
 		flex-direction: column;
 		h2 {
 			width: 100%;
-			text-align: center;
 			padding-top: 11rem;
+			padding-bottom: 2rem;
 		}
 		a {
 			color: #c0c0c0;
@@ -366,7 +379,7 @@ main {
 			letter-spacing:1px;
 			background: #FFF;
 			border: 0;
-			border-bottom:2px solid $greyTone;
+			border-bottom:1px solid $greyTone;
 			margin-bottom:25px;
 		}
 
@@ -378,6 +391,7 @@ main {
 
 		form textarea {
 			height:15rem;
+			resize: none;
 		}
 
 		form .submit {
@@ -388,7 +402,7 @@ main {
 			background-color: $greyTone;
 			font-family: 'Dosis', sans-serif;
 			opacity: 1;
-			color: black;
+			color: white;
 			margin-top: 1rem;
 			transition: 1s;
 		}
