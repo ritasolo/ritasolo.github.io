@@ -89,7 +89,7 @@ main {
 			background-color: white;
 			width: 100%;
 			display: inline;
-			padding: 0rem 1rem 1rem 1rem;
+			padding: 0.5rem 1rem 1rem 1rem;
 		}
 
 		h4 {
@@ -121,7 +121,9 @@ main {
 			left: 7rem;
 			padding-top: 23rem;
 			width: 500px;
-			transition: 1s;
+			transition: 1.2s;
+			overflow-x: hidden;
+			overflow-y: hidden;
 		}
 	}
 
@@ -346,10 +348,13 @@ main {
 		position: relative;
 		display: flex;
 		flex-direction: column;
+		justify-content: center;
+		align-items: center;
 		h2 {
 			width: 100%;
 			padding-top: 11rem;
 			padding-bottom: 2rem;
+			text-align: center;
 		}
 		a {
 			color: #c0c0c0;
