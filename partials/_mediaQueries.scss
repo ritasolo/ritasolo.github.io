@@ -6,7 +6,6 @@ html {
 }	
 /* Landscape phone to portrait tablet */
 @media (max-width: 800px) {
-
 	header {
 		.headerBox {
 		width: 100%;
@@ -17,7 +16,7 @@ html {
 		transition: 1s;
 		z-index: 1;
 	}
-	}
+}
 
 main {
 
@@ -183,8 +182,7 @@ main {
 
 /* Landscape phones and down */
 @media (max-width: 480px) {
-
-	html {
+	body {
 		overflow-x: hidden;
 	}
 
