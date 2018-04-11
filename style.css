@@ -192,7 +192,7 @@ a {
   color: #000; }
 
 p {
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   color: #4b575e;
   font-family: 'Cardo', serif;
   line-height: 3rem;
@@ -228,6 +228,9 @@ hr {
   height: 0;
   border-top: 1px solid rgba(0, 0, 0, 0.1);
   border-bottom: 1px solid rgba(255, 255, 255, 0.3); }
+
+.contrast {
+  color: #FC461E; }
 
 nav {
   background-color: #f5f5f5;
@@ -401,7 +404,11 @@ main .moreInfo {
   padding-top: 5rem; }
   main .moreInfo .half {
     width: 50%;
-    min-height: 80vh; }
+    min-height: 100vh; }
+  main .moreInfo p {
+    margin-top: 2rem; }
+  main .moreInfo p:first-of-type {
+    margin-top: 3rem; }
   main .moreInfo h2 {
     text-align: left;
     background-color: white;
@@ -505,7 +512,7 @@ main .gallerySection {
 
 main .listInfoSection {
   background-color: #f5f5f5;
-  padding: 18rem 0;
+  padding: 13rem 0;
   position: relative;
   display: -webkit-box;
   display: -ms-flexbox;

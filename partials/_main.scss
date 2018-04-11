@@ -81,7 +81,15 @@ main {
 
 		.half {
 			width: 50%;
-			min-height: 80vh;
+			min-height: 100vh;
+		}
+
+		p {
+			margin-top: 2rem;
+		}
+
+		p:first-of-type {
+			margin-top: 3rem;
 		}
 
 		h2 {
@@ -200,7 +208,7 @@ main {
 	.listInfoSection {
 		#answer1, #answer2, #answer3, #answer4 {display: none;}
 		background-color: $greyTone;
-		padding: 18rem 0;
+		padding: 13rem 0;
 		position: relative;
 		display: flex;
 		h2 {
