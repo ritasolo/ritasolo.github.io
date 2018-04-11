@@ -768,7 +768,7 @@ header {
     width: 100%;
     height: 100%;
     position: absolute;
-    top: -34rem;
+    top: -24rem;
     left: 60%;
     -webkit-transition: 1s;
     -o-transition: 1s;
@@ -783,7 +783,7 @@ header {
     transition-delay: 0.5s;
     width: 100%;
     margin: 0;
-    width: 90rem;
+    width: 80rem;
     -webkit-transform: rotate(6deg);
     -ms-transform: rotate(6deg);
     transform: rotate(6deg); }
@@ -850,7 +850,7 @@ html {
         width: 100%;
         height: 100%;
         position: absolute;
-        top: -34rem;
+        top: -24rem;
         left: 30%;
         -webkit-transition: 1s;
         -o-transition: 1s;
@@ -879,7 +879,8 @@ html {
       html main .introduction .half2 {
         padding: 0 3rem; }
         html main .introduction .half2 h2 {
-          text-align: center; }
+          text-align: center;
+          padding-top: 1rem; }
     html main .listInfoSection .listItems {
       width: 100%; }
     html main .galleryInfo h2 {
@@ -911,7 +912,7 @@ html {
       html nav .menu {
         display: none;
         position: absolute;
-        top: -5rem;
+        top: -7.8rem;
         left: 0;
         right: -1rem;
         bottom: 0;
@@ -932,11 +933,11 @@ html {
         background-color: white;
         line-height: 5.5rem;
         width: 100%;
-        -webkit-transition: 2s;
-        -o-transition: 2s;
-        transition: 2s; }
+        -webkit-transition: 0.2s;
+        -o-transition: 0.2s;
+        transition: 0.2s; }
         html nav .menu ul a:hover {
-          color: #CACFB9; }
+          color: #FC461E; }
       html nav .upArrow {
         opacity: 0; }
       html nav .menu li:first-of-type {
@@ -985,7 +986,7 @@ html {
     html header {
       overflow: hidden; }
     html header h1 {
-      left: -4rem; }
+      left: -5rem; }
     html header .headerBox {
       left: -4rem; }
     html .moreInfo {
